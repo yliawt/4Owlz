@@ -372,6 +372,7 @@ tabulate==0.9.0
 tbb==2021.11.0
 tblib==3.0.0
 tenacity==8.2.3
+tensorflow==2.6.0  # Choose an older version here.
 termcolor==2.4.0
 terminado==0.18.0
 text-unidecode==1.3
