@@ -172,7 +172,6 @@ ipython-sql==0.5.0
 ipytree==0.2.2
 ipywidgets==7.7.1
 itsdangerous==2.1.2
-jax==0.4.23
 jeepney==0.7.1
 jieba==0.42.1
 Jinja2==3.1.2
