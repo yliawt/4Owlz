@@ -1,0 +1,114 @@
+
+{% extends "base.html" %}
+
+{% block title %}4Owl.Z | Resume{% endblock %}
+
+{% block content %}
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="title">
+          <h2>{{profile[0]}}</h2>
+          <p>{{ profile[1] }}</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <p>Creativity Unleashed within Community</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Protfolio Section ======= -->
+    <section id="portfolio" class="portfolio" style="background-color: {{ profile[5] }};>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="portfolio-title">
+              <h2>{{profile[0]}}</h2>
+              <p>{{education[3]}}<br>
+                {{education[4]}}</p>
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row">
+          <div class="icon-container">
+<a href="../assets/cv/{{profile[0]}}.pdf" class="btn btn-primary" role="button" download>
+  <i class="bi bi-download"></i> Download
+</a>
+
+
+
+          </div>
+        </div>
+
+
+        <hr>
+
+
+
+        <div class="row">
+          <div class="col-lg-4">
+            <h3 class="resume-title">ABOUT ME</h3>
+            <div class="resume-item pb-0">
+              <h4>{{profile[0]}}</h4>
+              <p>{{profile[1]}}</p>
+              <ul>
+                <li><i class="bi bi-geo-alt-fill"></i> {{profile[2]}}</li>
+                <li><i class="bi bi-telephone-fill"></i> (+60) {{profile[3]}}</li>
+                <li><i class="bi bi-envelope-fill"></i> {{profile[4]}}</li>
+                <li><i class="bi bi-linkedin"></i> Linked iN</li>
+
+
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+
+            <div class="resume-item">
+              <h4>{{education[3]}}e</h4>
+              <h5>{{education[2]}}</h5>
+              <p><em>UUM, Kedah, Malaysia</em></p>
+            </div>
+            <h3 class="resume-title">Skills</h3>
+            <div class="resume-item">
+              {% for skill in skills%}
+              <p>{{skill[1]}}</p>
+              {%endfor%}
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <h3 class="resume-title">Relevant Courses</h3>
+            <div class="resume-item">
+
+
+              <p>{{education[6]}}</p>
+
+            </div>
+
+            <h3 class="resume-title">Experience, Project, Achievements</h3>
+            <div class="resume-item">
+              {%for row in distinct_project%}
+              <h5>{{row[0]}}</h5>
+              <p><em>{{row[1]}}</em></p>
+              <ul>
+                {% for project in projects %}
+                  {% if project[1]==row[0]%}
+                    <li>{{project[2]}}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+{% endblock %}

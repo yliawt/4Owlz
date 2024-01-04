@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+
+{% block title %}4Owl.Z | Contact{% endblock %}
+
+{% block content %}
+ <!-- ======= About Section ======= -->
+ <section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="title">
+      <h2>Intrested?</h2>
+      <p>Get to know about us better!</p>
+      <p>Fill in the contact form if you wish to get in touch with us.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+        <p>Creativity Unleashed within Community</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End About Section -->
+
+
+    <!-- ======= Project Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container"  data-aos="fade-up">
+
+        <div class="title">
+          <h1>Frequently Asked Questions (FAQs)</h1>
+        </div>
+       
+<div class="content">
+
+  <div class="accordion">
+    <hr>
+    <div class="accordion-item" id="question1">
+      <a class="accordion-link" href="#question1">
+        <div class="flex">
+          <h3>WHO ARE WE?</h3>
+        
+        </div>
+        <i class="icon ion-md-arrow-forward"></i>
+        <i class="icon ion-md-arrow-down"></i>
+      </a>
+      <div class="answer">
+        <p>We are UUM SOC student</p>
+      </div>
+      <hr>
+  </div>
+    <div class="accordion-item" id="question2">
+      <a class="accordion-link" href="#question2">
+        <div class="flex">
+          <h3>WHAT IS OUR SPECIALITIES?</h3>
+         
+        </div>
+        <i class="icon ion-md-arrow-forward"></i>
+        <i class="icon ion-md-arrow-down"></i>
+      </a>
+      <div class="answer">
+        <p>We will be able to provide a strealine of development, including from defining the concept, designing of interface, development of system and deployment of project.</p>
+      </div>
+      <hr>
+  </div>
+   
+  <div class="accordion-item" id="question3">
+    <a class="accordion-link" href="#question3">
+      <div class="flex">
+        <h3>HOW LONG DOES IT TAKES TO DEVELOP A WEBSITE?</h3>
+       
+      </div>
+      <i class="icon ion-md-arrow-forward"></i>
+      <i class="icon ion-md-arrow-down"></i>
+    </a>
+    <div class="answer">
+      <p> The timeline for developing a website depends on several factors, including the complexity of the design, the number of pages, the functionality required, and the feedback and approval process. 
+        <br>A basic website might take a few weeks, while more complex sites could take several months. </p>
+    </div>
+    <hr>
+</div>
+
+<div class="accordion-item" id="question4">
+  <a class="accordion-link" href="#question4">
+    <div class="flex">
+      <h3>WILL MY WEBSITE BE MOBILE FRIENDLY?</h3>
+     
+    </div>
+    <i class="icon ion-md-arrow-forward"></i>
+    <i class="icon ion-md-arrow-down"></i>
+  </a>
+  <div class="answer">
+    <p>Absolutely!
+      <br>All our websites are designed to be fully responsive and provide a seamless experience across all devices, including smartphones, tablets, and desktops.</p>
+  </div>
+  <hr>
+</div>
+
+<div class="accordion-item" id="question5">
+  <a class="accordion-link" href="#question5">
+    <div class="flex">
+      <h3>WHAT IS OUR SOFTWARE DEVELOPMENT PROCESS?</h3>
+     
+    </div>
+    <i class="icon ion-md-arrow-forward"></i>
+    <i class="icon ion-md-arrow-down"></i>
+  </a>
+  <div class="answer">
+    <p>We follow a structured project management process that includes requirement analysis, project planning, design, development, testing, deployment, and maintenance. 
+      <br>We use agile methodologies to ensure flexibility and efficiency, and we keep our clients informed at every stage of the process.</p>
+  </div>
+  <hr>
+</div>
+ </div>
+</div>
+</div>
+    </section><!-- End Services Section -->
+
+
+<!--Additional Questions-->
+<!--Send liao will pop out a window to view the submitted questions-->
+     <!-- ======= Contact Us Form Section ======= -->
+ <section id="inquiry-form" class="inquiry-form">
+  <div class="container" data-aos="fade-up">
+
+    <div class="title">
+      <h2>More Inquiries?</h2>
+      <p>Post your questions to us!</p>
+    </div>
+    <div class="content">
+      <div class="row mt-5">
+       <div class="col-lg-12">
+         <form action="{{url_for('question')}}" method="POST" role="form" >
+           <div class="form-group">
+             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+           </div>
+           <div class="form-group mt-3">
+             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+           </div>
+           <div class="form-group mt-3">
+             <textarea class="form-control" name="question" rows="5" placeholder="Your Question" required></textarea>
+           </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
+       </div>
+     </div>
+   </div>
+
+  </div>
+</section>
+<!-- End About Section -->
+
+     <!-- ======= Contact Us Form Section ======= -->
+     <section id="contactus-form" class="contactus-form">
+    <div class="container" data-aos="fade-up">
+      <div class="title">
+        <h2>Contact Us!</h2>
+        <p>We are always eager to be at your service.</p>
+      </div>
+      <div class="content">
+        <div class="form-section">
+        <form id="contactForm" action="{{url_for('service')}}" method="POST">
+            <!-- Full Name -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                  <label>Your Name</label>
+                    <input type="text" class="form-control" name="name" id="fullName" placeholder="Full Name">
+                </div>
+                <!-- Email -->
+                <div class="form-group col-md-6">
+                  <label>Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+            </div>
+            <!-- Where have you found us? -->
+            <div class="form-group">
+                <label>Where have you found us?</label>
+                <select id="source" class="form-control" name="source">
+                    <option selected>Choose...</option>
+                    <option>Facebook</option>
+                    <option>Recommendation</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <!-- How can we help you? -->
+            <div class="form-group">
+                <label>How can we help you?</label>
+                <select id="service" class="form-control" name="type">
+                    <option selected>Choose...</option>
+                    <option>UI/UX Design</option>
+                    <option>Development</option>
+                    <option>Full Project</option>
+                    <option>Hosting</option>
+                </select>
+            </div>
+            <!-- What is your project budget? -->
+            <div class="form-group">
+                <label>What is your project budget?</label>
+                <select id="budget" class="form-control" name="budget">
+                    <option selected>Choose...</option>
+                    <option>0 - 0.5k MYR</option>
+                    <option>0.5k-1k MYR</option>
+                    <option>1k-2k MYR</option>
+                    <option>2k above</option>
+                </select>
+            </div>
+            <!-- Project Detail -->
+            <div class="form-group">
+                <textarea class="form-control" name="details" id="projectDetail" rows="5" placeholder="Project Detail (Optional)"></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      </div>
+    </div>
+</section>
+{% endblock %}
