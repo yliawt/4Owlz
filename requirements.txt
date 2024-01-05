@@ -62,7 +62,6 @@ Cython==3.0.7
 dask==2023.8.1
 datascience==0.17.6
 db-dtypes==1.2.0
-dbus-python==1.2.18
 debugpy==1.6.6
 decorator==4.4.2
 defusedxml==0.7.1
@@ -331,7 +330,6 @@ pyshp==2.3.1
 PySocks==1.7.1
 pytensor==2.14.2
 pytest==7.4.3
-python-apt==0.0.0
 python-box==7.1.1
 python-dateutil==2.8.2
 python-louvain==0.16
