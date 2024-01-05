@@ -21,6 +21,7 @@ Babel==2.14.0
 backcall==0.2.0
 beautifulsoup4==4.11.2
 bidict==0.22.1
+bigframes==0.17.0
 bleach==6.1.0
 blinker==1.4
 blis==0.7.11
@@ -62,6 +63,7 @@ Cython==3.0.7
 dask==2023.8.1
 datascience==0.17.6
 db-dtypes==1.2.0
+dbus-python==1.2.18
 debugpy==1.6.6
 decorator==4.4.2
 defusedxml==0.7.1
@@ -104,6 +106,8 @@ frozenlist==1.4.1
 fsspec==2023.6.0
 future==0.18.3
 gast==0.5.4
+gcsfs==2023.6.0
+GDAL==3.4.3
 gdown==4.6.6
 geemap==0.29.6
 gensim==4.3.2
@@ -115,17 +119,25 @@ gin-config==0.5.0
 glob2==0.7
 google==2.0.3
 google-ai-generativelanguage==0.4.0
+google-api-core==2.11.1
+google-api-python-client==2.84.0
+google-auth==2.17.3
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.2.0
 google-cloud-aiplatform==1.38.1
 google-cloud-bigquery==3.12.0
 google-cloud-bigquery-connection==1.12.1
 google-cloud-bigquery-storage==2.24.0
+google-cloud-core==2.3.3
 google-cloud-datastore==2.15.2
 google-cloud-firestore==2.11.1
 google-cloud-functions==1.13.3
 google-cloud-iam==2.13.0
 google-cloud-language==2.9.1
 google-cloud-resource-manager==1.11.0
+google-cloud-storage==2.8.0
 google-cloud-translate==3.11.3
+google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=007abf712a1107899fcee242895a918dd217415131cd22e5e1be95ae3cb6addb
 google-crc32c==1.5.0
 google-generativeai==0.3.2
 google-pasta==0.2.0
@@ -175,7 +187,8 @@ ipython-sql==0.5.0
 ipytree==0.2.2
 ipywidgets==7.7.1
 itsdangerous==2.1.2
-jax==0.4.23 --hash=sha256:86223e15117db111bcb394c9c54b34ec5ebf1cb1e97826ab9a9e335dcc7a3971
+jax==0.4.23
+jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl#sha256=8e42000672599e7ec0ea7f551acfcc95dcdd0e22b05a1d1f12f97b56a9fce4a8
 jeepney==0.7.1
 jieba==0.42.1
 Jinja2==3.1.2
@@ -316,6 +329,7 @@ PyDrive2==1.6.3
 pyerfa==2.0.1.1
 pygame==2.5.2
 Pygments==2.16.1
+PyGObject==3.42.1
 PyJWT==2.3.0
 pymc==5.7.2
 pymystem3==0.2.0
@@ -330,6 +344,7 @@ pyshp==2.3.1
 PySocks==1.7.1
 pytensor==2.14.2
 pytest==7.4.3
+python-apt==0.0.0
 python-box==7.1.1
 python-dateutil==2.8.2
 python-louvain==0.16
