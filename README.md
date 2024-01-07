@@ -1,11 +1,8 @@
 # 4 Owlz Website
-
 <p align="center">
-  <img src="Screenshots/logo.png" alt="4 Owlz Logo" />
+  <img src="Screenshots/logo.png" alt="4 Owlz Logo" width="150" height="150"/>
 </p>
 
-
-![GitHub](https://github.com/yliawt/4Owlz)
 
 ## Table of Contents
 1. [Team Overview](#team-overview)
