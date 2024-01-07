@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+  
+    <section id="briefabout" class="briefabout">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-sm-12 ProfilePic">
+            <h1>{{profile[0]}} </h1>
+            <img src="../assets/img/{{profile[0]}}.png" alt="Tracy Liaw">
+            
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-12 SelfDescription">
+            <h1>About Me</h1>
+            <p>
+              {%for description in description%}
+              <p>{{description[0]}}</p>
+              <br>
+              {%endfor%}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pagedivider">
+     
+    </div>
+
+    <section id="detailabout" class="detailabout">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-8 col-sm-12 PersonalInfo">
+            <h1>{{profile[0]}}</h1>
+
+            <h3>{{profile[1]}}</h3>
+            <hr>
+           <p>
+            {{profile[3]}}
+            <br><br>
+            </p>
+            <div class="contactinfo">
+            <h2><strong>Contact Info</strong></h2>
+              <hr>
+            <h5><i class="fas fa-phone"></i> (+60){{profile[4]}}</h5>
+            <h5><i class="fas fa-envelope"></i> {{profile[5]}}</h5>
+            <h5><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/{{profile[6]}}" style="color: blue; text-decoration: underline;">Linked In</a></h5>
+            <h5><i class="fas fa-map-marker-alt"></i> {{profile[2]}}</h5>
+
+</div>
+          </div>
+
+          <div class="col-lg-5 col-md-8 col-sm-12 EducationProjects">
+            <div class="education">
+              <h2><strong>Education</strong></h2>
+              <hr>
+              <h4>{{education[0]}}</h4>
+              <h5>{{education[1]}}</h5>
+              <H5><i>{{education[2]}}</i></H5>
+            </div>
+            <br>
+
+            <div class="projects">
+              <h2><strong>Involved Projects</strong></h2>
+              <hr>
+              {%for project in project%}
+              <h4>{{project[1]}}</h4>
+              <h5>{{project[0]}}</h5>
+              <h6>{{project[2]}}</h6>
+              <br>
+              {% endfor%}
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-8 col-sm-12 LanguagesSkills">
+            <div class="language">
+              <h2><strong>Language</strong></h2>
+              <hr>
+              <ul>
+                {%for language in language%}
+                <li>{{language[0]}}</li>
+                {%endfor%}
+              </ul>
+            </div>
+<br>
+            <div class="hobbybox">
+              <h2><strong>Hobby</strong></h2>
+              <hr>
+              <p>{{hobby[0]}}</p>
+              <button onclick="location.href='/hobby?name={{profile[0]}}'">Let's Explore -></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    {% endblock %}

@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h1>All Existing Projects Created by 4Owl.Z</h1>
+
+        </div>
+        <!--Quoffe Coffee-->
+        <div class="project-detail">
+          <div class="row">
+            <div class="row project-name">
+              <div class="project-title">
+                <h1><strong>{{project[0][1]}}</strong></h1>
+              </div>
+              <div class="project-date">
+                <h4>{{project[0][0]}}</h4>
+              </div>
+            </div>
+            <hr>
+
+            <div class="row">
+              <div class="col-5">
+                <div class="project-description">
+
+
+                  <div class="project-intro">
+                    <h3>Project Description</h3>
+                    <h4>{{project[0][2]}}
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="project-tag">
+                  <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Flask</li>
+                    <li>Xampp</li>
+                  </ul>
+                </div>
+                <!-- Image Carousel -->
+                <div id="quoffe" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="../assets/img/quoffe/image1.jpg"
+                        class="d-block w-100" alt="Image 1"> </div>
+                    <div class="carousel-item"><img src="../assets/img/quoffe/image2.jpg" class="d-block w-100"
+                        alt="Image 2"></div>
+                    <div class="carousel-item"><img src="../assets/img/quoffe/image3.jpg" class="d-block w-100"
+                        alt="Image 3"> </div>
+                    <div class="carousel-item"><img src="../assets/img/quoffe/image4.jpg" class="d-block w-100"
+                        alt="Image 4"></div>
+                    <div class="carousel-item"><img src="../assets/img/quoffe/image5.jpg" class="d-block w-100"
+                        alt="Image 5">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#quoffe" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#quoffe" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <!--TechKids Forum-->
+        <div class="project-detail">
+          <div class="row">
+            <div class="row project-name">
+              <div class="project-title">
+                <h1><strong>{{project[1][1]}}</strong></h1>
+              </div>
+              <div class="project-date">
+                <h4>{{project[1][0]}}</h4>
+              </div>
+            </div>
+            <hr>
+
+            <div class="row">
+              <div class="col-5">
+                <div class="project-description">
+                  
+
+                  <div class="project-intro">
+                    <h3>Project Description</h3>
+                    <h4>{{project[1][2]}}
+                    </h4>
+                    <!-- Button Link -->
+                    <a href="https://techkids.pythonanywhere.com/" class="btn btn-primary">Link -></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="project-tag">
+                  <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Django</li>
+                    <li>SQLite3</li>
+                  </ul>
+                </div>
+                <!-- Image Carousel -->
+                <div id="techkids" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="../assets/img/techkids/image1.png"
+                        class="d-block w-100" alt="Image 1"> </div>
+                    <div class="carousel-item"><img src="../assets/img/techkids/image2.png"
+                        class="d-block w-100" alt="Image 2"></div>
+                    <div class="carousel-item"><img src="../assets/img/techkids/image3.png"
+                        class="d-block w-100" alt="Image 3"> </div>
+                    <div class="carousel-item"><img src="../assets/img/techkids/image4.png"
+                        class="d-block w-100" alt="Image 4"></div>
+                        <div class="carousel-item"><img src="../assets/img/techkids/image5.png"
+                        class="d-block w-100" alt="Image 5"></div>
+                    
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#techkids" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#techkids" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ {% endblock %}

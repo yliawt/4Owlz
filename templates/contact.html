@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+    <section id="contact" class="contact ">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="page-title">Contact us </h1>
+          </div>
+        </div>
+
+        <div class="form mt-2">
+          <form action="/service" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label>Your Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label>Your Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Where have you found us?</label>
+              <select id="source" class="form-control" name="source">
+                <option selected>Choose...</option>
+                <option>Facebook</option>
+                <option>Recommendation</option>
+                <option>Others</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>How can we help you?</label>
+              <select id="service" class="form-control" name="type">
+                <option selected>Choose...</option>
+                <option>UI/UX Design</option>
+                <option>Development</option>
+                <option>Full Project</option>
+                <option>Hosting</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>What is your project budget?</label>
+              <select id="budget" class="form-control" name="budget">
+                  <option selected>Choose...</option>
+                  <option>0 - 0.5k MYR</option>
+                  <option>0.5k-1k MYR</option>
+                  <option>1k-2k MYR</option>
+                  <option>2k above</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label>Project Detail</label>
+            <textarea class="form-control" id="projectDetail" name="details" rows="5" placeholder="Project Detail (Optional)"></textarea>
+        </div>
+           <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+    </section>
+
+
+ {% endblock %}

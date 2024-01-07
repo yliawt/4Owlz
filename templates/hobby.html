@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+   <!-- ======= Hobby Section ======= -->
+<section id="hobby" class="hobby" style="background:url('../assets/img/Hobby/{{hobby[1]}}.jpg') top center;background-size: cover;">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-md-8 col-lg-6 description">
+        <h2>My Hobby</h2>
+        <h4>{{hobby[1]}}</h4>
+        <hr>
+        <p>
+          {{hobby[2]}}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ {% endblock %}
