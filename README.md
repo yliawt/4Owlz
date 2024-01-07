@@ -1,8 +1,9 @@
 # 4 Owlz Website
 
 <p align="center">
-  <img src="URL_TO_LOGO_OR_RELEVANT_IMAGE" alt="4 Owlz Logo">
+  <img src="Screenshots/logo.png" alt="4 Owlz Logo" />
 </p>
+
 
 ![GitHub](https://github.com/yliawt/4Owlz)
 
@@ -58,36 +59,36 @@ To set up the project locally, follow these steps:
 ## Website Screenshots
 
 ### 4Owlz Landing Page
-![4Owlz Landing Page](Screenshot/LandPage.png)
+![4Owlz Landing Page](Screenshots/LandPage.png)
 
 ### 4Owlz Home Page
-![4Owlz Home Page](Screenshot/HomePage.png)
+![4Owlz Home Page](Screenshots/HomePage.png)
 
 ### 4Owlz Portfolio Page
 Individual portfolio pages for each member.
-![4Owlz Portfolio Page](Screenshot/ResumePage-TL.png)
-![4Owlz Portfolio Page](Screenshot/ResumePage-KM.png)
-![4Owlz Portfolio Page](Screenshot/ResumePage-WJ.png)
-![4Owlz Portfolio Page](Screenshot/ResumePage-DS.png)
+![4Owlz Portfolio Page](Screenshots/ResumePage-TL.png)
+![4Owlz Portfolio Page](Screenshots/ResumePage-KM.png)
+![4Owlz Portfolio Page](Screenshots/ResumePage-WJ.png)
+![4Owlz Portfolio Page](Screenshots/ResumePage-DS.png)
 
 ### 4Owlz Hobby Page
 Discover the hobbies and interests of our team members.
-![4Owlz Hobby Page](Screenshot/HobbyPage-TL.png)
-![4Owlz Hobby Page](Screenshot/HobbyPage-KM.png)
-![4Owlz Hobby Page](Screenshot/HobbyPage-WJ.png)
-![4Owlz Hobby Page](Screenshot/HobbyPage-DS.png)
+![4Owlz Hobby Page](Screenshots/HobbyPage-TL.png)
+![4Owlz Hobby Page](Screenshots/HobbyPage-KM.png)
+![4Owlz Hobby Page](Screenshots/HobbyPage-WJ.png)
+![4Owlz Hobby Page](Screenshots/HobbyPage-DS.png)
 
 ### 4Owlz Project Page
 View all past and ongoing team projects.
-![4Owlz Project Page](Screenshot/ProjectPage.png)
+![4Owlz Project Page](Screenshots/ProjectPage.png)
 
 ### 4Owlz Contact Page
 Contact the team via the website form.
-![4Owlz Contact Page](Screenshot/ContactPage.png)
+![4Owlz Contact Page](Screenshots/ContactPage.png)
 
 ### 4Owlz FAQ Page
 Questions on 4OwlZ.
-![4Owlz Contact Page](Screenshot/FAQPage.png)
+![4Owlz Contact Page](Screenshots/FAQPage.png)
 
 ### 4Owlz Contact Page
 Get in touch with the 4Owlz team.
