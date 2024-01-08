@@ -46,7 +46,6 @@ To set up the project locally, follow these steps:
 3. Open the app.ipnyb file in Google Colaboratory
 4. Run all commands and open the link provided
 
-
 ### Features
 
 - **Team Profiles**: Detailed information about each team member.
