@@ -1,6 +1,5 @@
 <p align="center">
   <img src="Screenshots/logo.png" alt="4 Owlz Logo" width="150" height="150"/>
-  <strong>4 Owlz Website</strong><br>
 </p>
 
 ## Table of Contents
