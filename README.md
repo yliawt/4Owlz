@@ -30,6 +30,7 @@ This website is aligned with the assignment02 for the subject SKIG3013 Mobile We
 ### Technologies Used
 - HTML5
 - CSS3
+- Bootstrap
 - JavaScript
 - Flask
 - SQLite3
@@ -40,9 +41,9 @@ This website is aligned with the assignment02 for the subject SKIG3013 Mobile We
 ### Installation Guide
 
 To set up the project locally, follow these steps:
-1. Download this whole project and unzip
+1. Download the project zip file and unzip it
 2. Upload the folder to Google Drive
-3. Open the .ipnyb file in Google Collab
+3. Open the app.ipnyb file in Google Colaboratory
 4. Run all commands and open the link provided
 
 
