@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>4OWL.Z</h1>
+  4Owl.z
   <img src="Screenshots/logo.png" alt="4 Owlz Logo" width="150" height="150"/>
 </p>
 
