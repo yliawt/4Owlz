@@ -9,13 +9,13 @@
 3. [Technologies Used](#technologies-used)
 4. [Features](#features)
 5. [Website Screenshots](#website-screenshots)
-   - [4Owlz Landing Page](#4owlz-landing-page)
-   - [4Owlz Home Page](#4owlz-home-page)
-   - [4Owlz Portfolio Page](#4owlz-portfolio-page)
-   - [4Owlz Hobby Page](#4owlz-hobby-page)
-   - [4Owlz Project Page](#4owlz-project-page)
-   - [4Owlz Contact Page](#4owlz-contact-page)
-   - [4Owlz FAQ Page](#4owlz-faq-page)
+   - [4Owl.z Landing Page](#4owlz-landing-page)
+   - [4Owl.z Home Page](#4owlz-home-page)
+   - [4Owl.z Portfolio Page](#4owlz-portfolio-page)
+   - [4Owl.z Hobby Page](#4owlz-hobby-page)
+   - [4Owl.z Project Page](#4owlz-project-page)
+   - [4Owl.z Contact Page](#4owlz-contact-page)
+   - [4Owl.z FAQ Page](#4owlz-faq-page)
 
 
 ## Team Overview
