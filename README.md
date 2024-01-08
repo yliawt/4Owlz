@@ -1,4 +1,5 @@
 <p align="center">
+  <h1>4OWL.Z</h1>
   <img src="Screenshots/logo.png" alt="4 Owlz Logo" width="150" height="150"/>
 </p>
 
@@ -19,11 +20,11 @@
 
 ## Team Overview
 
-**Team 4Owlz** comprises four members from the Bachelor of Computer Science program at Universiti Utara Malaysia. Each member plays a vital role in the software development process.
+**Team 4Owl.z** comprises four members from the Bachelor of Computer Science program at Universiti Utara Malaysia. Each member plays a vital role in the software development process.
 
 ## Introduction
 
-The **4 Owlz Website** showcases the profiles of our team members. It features detailed information about each member, including their identity, description, projects, achievements, resume, and hobbies. The website also highlights past projects undertaken by the team and facilitates inquiries and contact through an integrated platform.
+The **4 Owl.z Website** showcases the profiles of our team members. It features detailed information about each member, including their identity, description, projects, achievements, resume, and hobbies. The website also highlights past projects undertaken by the team and facilitates inquiries and contact through an integrated platform.
 This website is aligned with the assignment02 for the subject SKIG3013 Mobile Web Development.
 
 ### Technologies Used
