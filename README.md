@@ -14,8 +14,8 @@
    - [4Owl.z Portfolio Page](#4owlz-portfolio-page)
    - [4Owl.z Hobby Page](#4owlz-hobby-page)
    - [4Owl.z Project Page](#4owlz-project-page)
-   - [4Owl.z Contact Page](#4owlz-contact-page)
    - [4Owl.z FAQ Page](#4owlz-faq-page)
+   - [4Owl.z Contact Page](#4owlz-contact-page)
 
 
 ## Team Overview
@@ -77,10 +77,6 @@ Discover the hobbies and interests of our team members.
 ### 4Owl.z Project Page
 View all past and ongoing team projects.
 ![4Owlz Project Page](Screenshots/ProjectPage.png)
-
-### 4Owl.z Contact Page
-Contact the team via the website form.
-![4Owlz Contact Page](Screenshots/ContactPage.png)
 
 ### 4Owl.z FAQ Page
 Questions on 4OwlZ.
