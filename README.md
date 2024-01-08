@@ -54,39 +54,39 @@ To set up the project locally, follow these steps:
 
 ## Website Screenshots
 
-### 4Owlz Landing Page
+### 4Owl.z Landing Page
 ![4Owlz Landing Page](Screenshots/LandPage.png)
 
-### 4Owlz Home Page
+### 4Owl.z Home Page
 ![4Owlz Home Page](Screenshots/HomePage.png)
 
-### 4Owlz Portfolio Page
+### 4Owl.z Portfolio Page
 Individual portfolio pages for each member.
 ![4Owlz Portfolio Page](Screenshots/ResumePage-TL.png)
 ![4Owlz Portfolio Page](Screenshots/ResumePage-KM.png)
 ![4Owlz Portfolio Page](Screenshots/ResumePage-WJ.png)
 ![4Owlz Portfolio Page](Screenshots/ResumePage-DS.png)
 
-### 4Owlz Hobby Page
+### 4Owl.z Hobby Page
 Discover the hobbies and interests of our team members.
 ![4Owlz Hobby Page](Screenshots/HobbyPage-TL.png)
 ![4Owlz Hobby Page](Screenshots/HobbyPage-KM.png)
 ![4Owlz Hobby Page](Screenshots/HobbyPage-WJ.png)
 ![4Owlz Hobby Page](Screenshots/HobbyPage-DS.png)
 
-### 4Owlz Project Page
+### 4Owl.z Project Page
 View all past and ongoing team projects.
 ![4Owlz Project Page](Screenshots/ProjectPage.png)
 
-### 4Owlz Contact Page
+### 4Owl.z Contact Page
 Contact the team via the website form.
 ![4Owlz Contact Page](Screenshots/ContactPage.png)
 
-### 4Owlz FAQ Page
+### 4Owl.z FAQ Page
 Questions on 4OwlZ.
 ![4Owlz Contact Page](Screenshots/FAQPage.png)
 
-### 4Owlz Contact Page
+### 4Owl.z Contact Page
 Get in touch with the 4Owlz team.
 ![4Owlz Contact Page](Screenshots/ContactPage.png)
 
